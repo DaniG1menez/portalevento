@@ -5,14 +5,25 @@ li {
 }
 .header{
 display: flex;
+justify-content: space-between;
 width: 80%;
-height: 60%;
-margin: auto    ;
+height: 60px;
+margin: auto;
 overflow: hidden;
 background-color: rgb(199, 128, 128);
+padding: 15px 0;
+
+  & img{
+    object-fit: cover;
+    
+    }
 }
 
 a{
     font-family: 'quick';
     text-decoration: none;
+}
+
+.header img{
+
 }

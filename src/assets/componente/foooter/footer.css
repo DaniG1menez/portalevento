@@ -1,0 +1,16 @@
+.footer{
+    position: fixed;
+    bottom: 0;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    height: 200px;
+}
+.flex{
+    display: flex;
+
+}
+.lista_colum{
+    display: flex;
+    flex-direction: column;
+}
